@@ -1,0 +1,31 @@
+/* App.css */
+
+/* Hover-Animation für die Cards */
+.card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-hover i {
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover i {
+  transform: scale(1.1);
+}
+
+/* Hintergrundbild für die ganze Seite */
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Stil für den Footer */
+footer {
+  background-color: #343a40;
+}
